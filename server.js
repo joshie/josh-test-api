@@ -2,6 +2,6 @@ const express = require('express')
 const app = express()
 const port = 8080
 
-app.get('/', (req, res) => res.send('api-data-fake'))
+app.get('/', (req, res) => res.send('API DATA '+process.env.API_DATA))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
