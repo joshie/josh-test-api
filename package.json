@@ -1,0 +1,26 @@
+{
+  "name": "josh-test-api",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshie/josh-test-api.git"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "author": "Josh Lohrman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshie/josh-test-api/issues"
+  },
+  "homepage": "https://github.com/joshie/josh-test-api#readme"
+}
